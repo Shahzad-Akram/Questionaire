@@ -1,0 +1,17 @@
+.fw-box {
+  display: flex;
+  height: 8px;
+  width: 25%;
+}
+
+.fw-box-color {
+  background-color: dimgray;
+}
+
+.fw-box-color.active {
+  background-color: forestgreen;
+}
+
+#testing {
+  display: none;
+}

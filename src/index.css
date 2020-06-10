@@ -1,0 +1,257 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/*  ============ */
+
+@font-face {
+  font-family: 'WWF';
+  src: url('//db.onlinewebfonts.com/t/596b9b0742c4fb004a2adcaf9861a128.eot');
+  src: url('//db.onlinewebfonts.com/t/596b9b0742c4fb004a2adcaf9861a128.eot?#iefix')
+      format('embedded-opentype'),
+    url('//db.onlinewebfonts.com/t/596b9b0742c4fb004a2adcaf9861a128.woff2')
+      format('woff2'),
+    url('//db.onlinewebfonts.com/t/596b9b0742c4fb004a2adcaf9861a128.woff')
+      format('woff'),
+    url('//db.onlinewebfonts.com/t/596b9b0742c4fb004a2adcaf9861a128.ttf')
+      format('truetype'),
+    url('//db.onlinewebfonts.com/t/596b9b0742c4fb004a2adcaf9861a128.svg#WWF')
+      format('svg');
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'WWF', sans-serif;
+}
+
+.bg-hide {
+  background-color: unset !important;
+}
+
+.question-title {
+  font-family: 'Segoe UI', sans-serif;
+  font-weight: 700;
+  text-transform: none;
+  line-height: 1.24;
+}
+
+h1 {
+  font-size: 3.5rem !important;
+  line-height: 3.5rem !important;
+  margin-bottom: 2rem !important;
+}
+
+h3 {
+  font-size: 2rem !important;
+  line-height: 2.6rem !important;
+  margin-bottom: 2rem !important;
+}
+
+h4 {
+  font-size: 2.2rem !important;
+  line-height: 2.2rem !important;
+  margin-bottom: 2rem !important;
+}
+
+p {
+  font-family: 'Times New Roman', Times, serif !important;
+  font-size: 1.4rem !important;
+  line-height: 1.7rem !important;
+  margin-bottom: 2rem !important;
+}
+
+.btn {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.3rem;
+  line-height: 2.4rem;
+  font-weight: 700;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  padding: 15px 25px;
+  opacity: 1;
+  max-width: 100%;
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+  border-radius: 2px;
+}
+
+.btn:active,
+.btn:focus,
+.btn:hover {
+  outline: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+.btn-orange {
+  color: #fff !important;
+  background-color: #f36c42 !important;
+  border-color: #f36c42 !important;
+}
+
+.btn-orange:hover {
+  color: #fff !important;
+  background-color: #c3380c !important;
+  border-color: #c3380c !important;
+}
+
+.btn-link {
+  font-weight: 400;
+  color: #f36c42 !important;
+  text-decoration: none;
+}
+
+.btn-link:hover {
+  color: #888 !important;
+  text-decoration: none !important;
+}
+
+.btn-with-arrow {
+  position: relative;
+  overflow: visible;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background-color: #3b5998 !important;
+  color: white !important;
+}
+
+.fa-twitter {
+  background-color: #55acee !important;
+  color: white !important;
+}
+
+.bg-black-1 {
+  background-color: #000 !important;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 5.5rem !important;
+    line-height: 5.5rem !important;
+    margin-bottom: 2.8rem !important;
+  }
+
+  h3 {
+    font-size: 3.2rem !important;
+    line-height: 3.2rem !important;
+    margin-bottom: 2rem !important;
+  }
+
+  h4 {
+    font-size: 2.6rem !important;
+    line-height: 2.6rem !important;
+    margin-bottom: 2rem !important;
+  }
+
+  p {
+    font-size: 1.6rem !important;
+    line-height: 2rem !important;
+  }
+
+  .question-title {
+    font-size: 2.4rem !important;
+    line-height: 1.24 !important;
+  }
+
+  .btn {
+    font-size: 1.4rem !important;
+  }
+
+  .btn-link {
+    font-size: 1.3rem !important;
+  }
+}
+
+/* Home Time Line */
+
+@media (min-width: 768px) {
+  .homeTimeline {
+    height: auto;
+    min-height: 100vh;
+    background-image: url(https://footprint.wwf.org.uk/images/new/bg-home.jpg) !important;
+  }
+}
+
+@media (min-height: 580px) and (min-width: 768px) {
+  .bg-black {
+    background-color: #000 !important;
+  }
+
+  .homeTimeline {
+    height: 100vh;
+    min-height: 0;
+    background-image: url(https://footprint.wwf.org.uk/images/new/sky.jpg);
+  }
+}
+
+.homeTimeline {
+  overflow: hidden;
+  padding: 0 15px;
+  height: 100vh;
+  background-image: url(https://footprint.wwf.org.uk/images/new/sky.jpg);
+  background-size: 105% 105%;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  transition: all 0.5s ease-in;
+}
+
+.homeTimeline:hover {
+  background-size: 100% 100%;
+}
+
+@media (min-width: 992px) {
+  h1 {
+    font-size: 6.6rem !important;
+    line-height: 6.9rem !important;
+    margin-bottom: 3rem !important;
+  }
+
+  h3 {
+    font-size: 4rem !important;
+    line-height: 4rem !important;
+    margin-bottom: 2rem !important;
+  }
+
+  h4 {
+    font-size: 3rem !important;
+    line-height: 3rem !important;
+    margin-bottom: 2rem !important;
+  }
+
+  .btn-with-arrow:after {
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 50px;
+    top: -23px;
+    right: -50px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(./assets/arrow.svg);
+  }
+
+  .fw-bg-dark {
+    background-color: #343a40 !important;
+  }
+}
